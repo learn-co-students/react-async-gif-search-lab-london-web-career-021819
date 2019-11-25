@@ -1,22 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function NavBar(props){
-  const colors = {
-    black: 'navbar-inverse',
-    white: 'navbar-default'
-  }
-  
+export default class NavBar extends Component {
+
+render() {
   return (
-    <nav className={`navbar ${colors[props.color]}`}>
-      <div className='container-fluid'>
-        <div className='navbar-header'>
-          <a className='navbar-brand'>
-            { props.title }
-          </a>
-        </div>
-      </div>
-    </nav>
+    <h3>
+      Giphy Search
+    </h3>
   )
 }
 
-export default NavBar
+}

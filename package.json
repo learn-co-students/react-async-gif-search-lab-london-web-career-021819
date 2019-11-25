@@ -40,6 +40,9 @@
     "react-dom": "^16.0.0",
     "react-scripts": "^1.0.7",
     "react-test-renderer": "^16.0.0",
+    "semantic": "0.0.1",
+    "semantic-ui": "^2.4.2",
+    "ui": "^0.2.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   },
